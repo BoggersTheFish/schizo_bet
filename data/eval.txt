@@ -1,0 +1,6 @@
+Eval split for TS-scale LM smoke tests. This file should differ slightly from train.txt
+so perplexity reflects generalization, not verbatim memorization. Tension graphs route
+activation through a causal window. Schrödinger modules use vector quantization with
+straight-through gradients. Mixture-of-experts layers blend specialist feed-forward
+blocks. Oscillatory gates modulate depth-wise state with sinusoidal structure. Check
+eval_ppl on this file while training on train.txt only.
