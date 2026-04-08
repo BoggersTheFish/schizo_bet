@@ -25,6 +25,7 @@ See `python -m ts_scale.train --help` for sequence length, model size, tokenizer
 | Path | Role |
 |------|------|
 | `ts_scale/` | Model, losses, training loop, tokenizers, checkpoint IO |
+| `ts_llm/` | Companion LM/embeddings utilities (`python -m ts_llm`) |
 | `data/` | Example train/eval text (replace with your corpus) |
 | `requirements-scale.txt` | PyTorch, NumPy, tokenizers |
 
