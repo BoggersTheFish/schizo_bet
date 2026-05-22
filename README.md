@@ -1,3 +1,5 @@
+> **Historical prototype:** this repo is kept public for development history, but it is not the current first-contact path for the TS research stack. Start with `TS-Start-Here`, `TS-Reasoner-v0`, `TS-Codex-OS`, `TS-Core`, `bozo` / TensionLM, and `BoggersTheCIG`.
+
 # schizo_bet
 
 Small-language-model experiments built around a **TS-scale** backbone: stacked causal **tension-graph** layers (learned pairwise gates on a local past window), oscillatory modulation, periodic MoE feed-forward blocks, and mid-stack Schrödinger-style VQ. Training is file-driven with optional byte or BPE tokenization, AMP on CUDA, learning-rate warmup/decay, and checkpointing.
